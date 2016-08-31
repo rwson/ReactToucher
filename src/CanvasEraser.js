@@ -93,6 +93,13 @@ class CanvasEraser extends Component {
             </div>
         );
     }
+
+    componentWillUnMount(){
+        this.canvas = null;
+        this.cxt = null;
+        this.position = null;
+        this.cfg = {};
+    }
 }
 
 export default CanvasEraser;
