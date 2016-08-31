@@ -52,3 +52,5 @@ width | 刮卡区域宽度 | Number | 300
 height | 刮卡区域高度 | Number | 300
 img | 刮卡否图 | String | 空
 radius | 手指移动画圆半径 | Number | 20
+
+安利下,事件模块来自本人另一项目[Toucher](https://github.com/rwson/Toucher),😄
